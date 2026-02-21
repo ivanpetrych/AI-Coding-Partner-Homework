@@ -1,0 +1,12 @@
+[
+  {
+    "customerId": "CUST301",
+    "customerEmail": "invalid-email-format",
+    "customerName": "Test User",
+    "subject": "Test subject",
+    "description": "This ticket has an invalid email so it should fail validation.",
+    "category": "other",
+    "priority": "low",
+    "status": "new"
+  }
+  MISSING_CLOSING_BRACKET_ON_PURPOSE

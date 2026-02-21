@@ -1,0 +1,4 @@
+customer_id,customer_email,customer_name,subject,description,category,priority,status
+CUST020,test@example.com,Test User,Auto Classify Me,My account is locked and I cannot login at all. Please help immediately.,,
+CUST021,test2@example.com,Test User 2,Auto Classify Bug,The application crashes when I click the submit button.,,
+CUST022,test3@example.com,Test User 3,Auto Classify Billing,I have a question about my invoice for last month.,,

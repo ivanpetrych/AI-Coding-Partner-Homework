@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TicketsXmlWrapper>
+  <tickets>
+    <customerId>CUST401</customerId>
+    <customerEmail>alice.xml@example.com</customerEmail>
+    <customerName>Alice XML</customerName>
+    <subject>Login issue via XML import</subject>
+    <description>I cannot login to my account after the latest update. The password reset also does not work for me.</description>
+    <category>account_access</category>
+    <priority>high</priority>
+    <status>new</status>
+    <tags>login</tags>
+    <tags>xml-import</tags>
+  </tickets>
+  <tickets>
+    <customerId>CUST402</customerId>
+    <customerEmail>bob.xml@example.com</customerEmail>
+    <customerName>Bob XML</customerName>
+    <subject>Billing invoice discrepancy</subject>
+    <description>The invoice I received shows a different amount than what was charged to my credit card. Please investigate the payment charge.</description>
+    <category>billing_question</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <tags>billing</tags>
+    <tags>invoice</tags>
+  </tickets>
+  <tickets>
+    <customerId>CUST403</customerId>
+    <customerEmail>carol.xml@example.com</customerEmail>
+    <customerName>Carol XML</customerName>
+    <subject>Critical bug in production causing errors</subject>
+    <description>Steps to reproduce: 1) Login 2) Go to dashboard 3) Click export. Expected behavior: file downloads. Actual behavior: 500 error appears.</description>
+    <category>bug_report</category>
+    <priority>urgent</priority>
+    <status>new</status>
+    <tags>critical</tags>
+    <tags>production</tags>
+  </tickets>
+  <tickets>
+    <customerId>CUST404</customerId>
+    <customerEmail>dave.xml@example.com</customerEmail>
+    <customerName>Dave XML</customerName>
+    <subject>Suggestion for improved search feature</subject>
+    <description>It would be a great enhancement to improve the search functionality with filters. Would like to see faceted search added.</description>
+    <category>feature_request</category>
+    <priority>low</priority>
+    <status>new</status>
+    <tags>search</tags>
+    <tags>feature</tags>
+  </tickets>
+  <tickets>
+    <customerId>CUST405</customerId>
+    <customerEmail>eve.xml@example.com</customerEmail>
+    <customerName>Eve XML</customerName>
+    <subject>Timeout error on large report generation</subject>
+    <description>When generating a report with more than 10000 records the system times out after 30 seconds and returns no data.</description>
+    <category>technical_issue</category>
+    <priority>high</priority>
+    <status>in_progress</status>
+    <tags>timeout</tags>
+    <tags>reports</tags>
+  </tickets>
+</TicketsXmlWrapper>

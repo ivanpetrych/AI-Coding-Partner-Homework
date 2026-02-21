@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TicketsXmlWrapper>
+  <tickets>
+    <customerId>CUST501</customerId>
+    <customerEmail>test@example.com</customerEmail>
+    <customerName>Test User</customerName>
+    <subject>Unclosed tag test</subject>
+    <description>This XML is intentionally malformed for testing purposes.
+    <!-- UNCLOSED TAG BELOW -->
+    <brokenTag>value without closing
+  </tickets>

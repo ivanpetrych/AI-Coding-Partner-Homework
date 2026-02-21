@@ -1,0 +1,11 @@
+customer_id,customer_email,customer_name,subject,description,category,priority,status,assigned_to,tags
+CUST001,alice@example.com,Alice Smith,Cannot login to my account,I have been trying to login for the past hour but keep getting an error message saying invalid credentials.,account_access,high,new,,authentication;login
+CUST002,bob@example.com,Bob Jones,Payment not processed,My payment was deducted from my bank account but the subscription is still showing as unpaid.,billing_question,high,new,,billing;payment
+CUST003,carol@example.com,Carol White,App crashes on startup,The application crashes immediately after launch on my Android device version 13. Steps to reproduce: open app.,bug_report,urgent,new,,crash;android
+CUST004,dave@example.com,Dave Brown,Feature request: dark mode,It would be great to have a dark mode option in the settings. This is a suggestion from many users.,feature_request,low,in_progress,agent1,feature;ui
+CUST005,eve@example.com,Eve Davis,Invoice not received,I completed my purchase three days ago but have not received an invoice via email.,billing_question,medium,new,,invoice;email
+CUST006,frank@example.com,Frank Miller,2FA not working,My two-factor authentication code is not being accepted even though it is correct and within time.,account_access,urgent,new,,2fa;authentication
+CUST007,grace@example.com,Grace Wilson,Server error 500 on checkout,I keep getting a 500 server error when trying to complete checkout. This is blocking my purchase.,technical_issue,high,in_progress,agent2,500;checkout
+CUST008,henry@example.com,Henry Moore,Request to add CSV export,Enhancement request: please add the ability to export reports as CSV files.,feature_request,low,new,,csv;export
+CUST009,iris@example.com,Iris Taylor,Forgot password link not working,The forgot password email link expires immediately when I click it. Cannot reset my password.,account_access,high,new,,password;reset
+CUST010,jack@example.com,Jack Anderson,Minor UI cosmetic issue,The button on the settings page is slightly misaligned on Firefox. It is a cosmetic issue.,technical_issue,low,new,,ui;firefox
