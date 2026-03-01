@@ -1,0 +1,302 @@
+[
+  {
+    "customerId": "CUST051",
+    "customerEmail": "user51@example.com",
+    "customerName": "User 51",
+    "subject": "Sample Issue 51",
+    "description": "This is a generated description for issue number 51.",
+    "category": "other",
+    "priority": "urgent",
+    "status": "closed",
+    "assignedTo": "Agent Jones",
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST052",
+    "customerEmail": "user52@example.com",
+    "customerName": "User 52",
+    "subject": "Sample Issue 52",
+    "description": "This is a generated description for issue number 52.",
+    "category": "bug_report",
+    "priority": "urgent",
+    "status": "new",
+    "assignedTo": "Agent Smith",
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST053",
+    "customerEmail": "user53@example.com",
+    "customerName": "User 53",
+    "subject": "Sample Issue 53",
+    "description": "This is a generated description for issue number 53.",
+    "category": "account_access",
+    "priority": "urgent",
+    "status": "new",
+    "assignedTo": null,
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST054",
+    "customerEmail": "user54@example.com",
+    "customerName": "User 54",
+    "subject": "Sample Issue 54",
+    "description": "This is a generated description for issue number 54.",
+    "category": "billing_question",
+    "priority": "low",
+    "status": "closed",
+    "assignedTo": null,
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST055",
+    "customerEmail": "user55@example.com",
+    "customerName": "User 55",
+    "subject": "Sample Issue 55",
+    "description": "This is a generated description for issue number 55.",
+    "category": "other",
+    "priority": "urgent",
+    "status": "new",
+    "assignedTo": "Agent Smith",
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST056",
+    "customerEmail": "user56@example.com",
+    "customerName": "User 56",
+    "subject": "Sample Issue 56",
+    "description": "This is a generated description for issue number 56.",
+    "category": "account_access",
+    "priority": "low",
+    "status": "closed",
+    "assignedTo": "Agent Smith",
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST057",
+    "customerEmail": "user57@example.com",
+    "customerName": "User 57",
+    "subject": "Sample Issue 57",
+    "description": "This is a generated description for issue number 57.",
+    "category": "account_access",
+    "priority": "high",
+    "status": "in_progress",
+    "assignedTo": null,
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST058",
+    "customerEmail": "user58@example.com",
+    "customerName": "User 58",
+    "subject": "Sample Issue 58",
+    "description": "This is a generated description for issue number 58.",
+    "category": "technical_issue",
+    "priority": "high",
+    "status": "closed",
+    "assignedTo": null,
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST059",
+    "customerEmail": "user59@example.com",
+    "customerName": "User 59",
+    "subject": "Sample Issue 59",
+    "description": "This is a generated description for issue number 59.",
+    "category": "account_access",
+    "priority": "low",
+    "status": "resolved",
+    "assignedTo": "Agent Brown",
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST060",
+    "customerEmail": "user60@example.com",
+    "customerName": "User 60",
+    "subject": "Sample Issue 60",
+    "description": "This is a generated description for issue number 60.",
+    "category": "other",
+    "priority": "low",
+    "status": "closed",
+    "assignedTo": "Agent Jones",
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST061",
+    "customerEmail": "user61@example.com",
+    "customerName": "User 61",
+    "subject": "Sample Issue 61",
+    "description": "This is a generated description for issue number 61.",
+    "category": "billing_question",
+    "priority": "low",
+    "status": "new",
+    "assignedTo": "Agent Brown",
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST062",
+    "customerEmail": "user62@example.com",
+    "customerName": "User 62",
+    "subject": "Sample Issue 62",
+    "description": "This is a generated description for issue number 62.",
+    "category": "technical_issue",
+    "priority": "high",
+    "status": "closed",
+    "assignedTo": "Agent Brown",
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST063",
+    "customerEmail": "user63@example.com",
+    "customerName": "User 63",
+    "subject": "Sample Issue 63",
+    "description": "This is a generated description for issue number 63.",
+    "category": "billing_question",
+    "priority": "high",
+    "status": "waiting_customer",
+    "assignedTo": "Agent Smith",
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST064",
+    "customerEmail": "user64@example.com",
+    "customerName": "User 64",
+    "subject": "Sample Issue 64",
+    "description": "This is a generated description for issue number 64.",
+    "category": "technical_issue",
+    "priority": "urgent",
+    "status": "resolved",
+    "assignedTo": "Agent Smith",
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST065",
+    "customerEmail": "user65@example.com",
+    "customerName": "User 65",
+    "subject": "Sample Issue 65",
+    "description": "This is a generated description for issue number 65.",
+    "category": "account_access",
+    "priority": "high",
+    "status": "in_progress",
+    "assignedTo": null,
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST066",
+    "customerEmail": "user66@example.com",
+    "customerName": "User 66",
+    "subject": "Sample Issue 66",
+    "description": "This is a generated description for issue number 66.",
+    "category": "feature_request",
+    "priority": "urgent",
+    "status": "in_progress",
+    "assignedTo": null,
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST067",
+    "customerEmail": "user67@example.com",
+    "customerName": "User 67",
+    "subject": "Sample Issue 67",
+    "description": "This is a generated description for issue number 67.",
+    "category": "feature_request",
+    "priority": "low",
+    "status": "resolved",
+    "assignedTo": null,
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST068",
+    "customerEmail": "user68@example.com",
+    "customerName": "User 68",
+    "subject": "Sample Issue 68",
+    "description": "This is a generated description for issue number 68.",
+    "category": "feature_request",
+    "priority": "urgent",
+    "status": "waiting_customer",
+    "assignedTo": "Agent Jones",
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST069",
+    "customerEmail": "user69@example.com",
+    "customerName": "User 69",
+    "subject": "Sample Issue 69",
+    "description": "This is a generated description for issue number 69.",
+    "category": "technical_issue",
+    "priority": "low",
+    "status": "new",
+    "assignedTo": "Agent Jones",
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  },
+  {
+    "customerId": "CUST070",
+    "customerEmail": "user70@example.com",
+    "customerName": "User 70",
+    "subject": "Sample Issue 70",
+    "description": "This is a generated description for issue number 70.",
+    "category": "bug_report",
+    "priority": "urgent",
+    "status": "closed",
+    "assignedTo": null,
+    "tags": [
+      "generated",
+      "sample"
+    ]
+  }
+]

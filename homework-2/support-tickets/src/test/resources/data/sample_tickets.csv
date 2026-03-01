@@ -1,0 +1,51 @@
+customer_id,customer_email,customer_name,subject,description,category,priority,status,assigned_to,tags
+CUST001,user1@example.com,User 1,Sample Issue 1,This is a generated description for issue number 1.,feature_request,low,closed,Agent Smith,generated;sample
+CUST002,user2@example.com,User 2,Sample Issue 2,This is a generated description for issue number 2.,feature_request,high,waiting_customer,,generated;sample
+CUST003,user3@example.com,User 3,Sample Issue 3,This is a generated description for issue number 3.,bug_report,high,resolved,,generated;sample
+CUST004,user4@example.com,User 4,Sample Issue 4,This is a generated description for issue number 4.,feature_request,high,resolved,Agent Smith,generated;sample
+CUST005,user5@example.com,User 5,Sample Issue 5,This is a generated description for issue number 5.,other,low,waiting_customer,,generated;sample
+CUST006,user6@example.com,User 6,Sample Issue 6,This is a generated description for issue number 6.,technical_issue,medium,closed,Agent Smith,generated;sample
+CUST007,user7@example.com,User 7,Sample Issue 7,This is a generated description for issue number 7.,other,medium,new,,generated;sample
+CUST008,user8@example.com,User 8,Sample Issue 8,This is a generated description for issue number 8.,account_access,low,closed,,generated;sample
+CUST009,user9@example.com,User 9,Sample Issue 9,This is a generated description for issue number 9.,account_access,low,new,Agent Smith,generated;sample
+CUST010,user10@example.com,User 10,Sample Issue 10,This is a generated description for issue number 10.,account_access,urgent,in_progress,Agent Jones,generated;sample
+CUST011,user11@example.com,User 11,Sample Issue 11,This is a generated description for issue number 11.,bug_report,urgent,new,Agent Smith,generated;sample
+CUST012,user12@example.com,User 12,Sample Issue 12,This is a generated description for issue number 12.,account_access,medium,in_progress,,generated;sample
+CUST013,user13@example.com,User 13,Sample Issue 13,This is a generated description for issue number 13.,account_access,low,closed,Agent Smith,generated;sample
+CUST014,user14@example.com,User 14,Sample Issue 14,This is a generated description for issue number 14.,other,urgent,new,,generated;sample
+CUST015,user15@example.com,User 15,Sample Issue 15,This is a generated description for issue number 15.,billing_question,medium,waiting_customer,Agent Jones,generated;sample
+CUST016,user16@example.com,User 16,Sample Issue 16,This is a generated description for issue number 16.,billing_question,medium,closed,Agent Smith,generated;sample
+CUST017,user17@example.com,User 17,Sample Issue 17,This is a generated description for issue number 17.,bug_report,high,closed,Agent Smith,generated;sample
+CUST018,user18@example.com,User 18,Sample Issue 18,This is a generated description for issue number 18.,billing_question,urgent,closed,,generated;sample
+CUST019,user19@example.com,User 19,Sample Issue 19,This is a generated description for issue number 19.,account_access,medium,in_progress,,generated;sample
+CUST020,user20@example.com,User 20,Sample Issue 20,This is a generated description for issue number 20.,bug_report,high,in_progress,,generated;sample
+CUST021,user21@example.com,User 21,Sample Issue 21,This is a generated description for issue number 21.,bug_report,low,in_progress,,generated;sample
+CUST022,user22@example.com,User 22,Sample Issue 22,This is a generated description for issue number 22.,other,urgent,new,Agent Smith,generated;sample
+CUST023,user23@example.com,User 23,Sample Issue 23,This is a generated description for issue number 23.,bug_report,medium,new,,generated;sample
+CUST024,user24@example.com,User 24,Sample Issue 24,This is a generated description for issue number 24.,other,high,closed,,generated;sample
+CUST025,user25@example.com,User 25,Sample Issue 25,This is a generated description for issue number 25.,billing_question,low,waiting_customer,Agent Brown,generated;sample
+CUST026,user26@example.com,User 26,Sample Issue 26,This is a generated description for issue number 26.,account_access,urgent,in_progress,,generated;sample
+CUST027,user27@example.com,User 27,Sample Issue 27,This is a generated description for issue number 27.,other,low,resolved,Agent Jones,generated;sample
+CUST028,user28@example.com,User 28,Sample Issue 28,This is a generated description for issue number 28.,technical_issue,high,resolved,,generated;sample
+CUST029,user29@example.com,User 29,Sample Issue 29,This is a generated description for issue number 29.,bug_report,high,resolved,Agent Jones,generated;sample
+CUST030,user30@example.com,User 30,Sample Issue 30,This is a generated description for issue number 30.,other,urgent,in_progress,Agent Smith,generated;sample
+CUST031,user31@example.com,User 31,Sample Issue 31,This is a generated description for issue number 31.,billing_question,medium,resolved,Agent Jones,generated;sample
+CUST032,user32@example.com,User 32,Sample Issue 32,This is a generated description for issue number 32.,other,medium,resolved,,generated;sample
+CUST033,user33@example.com,User 33,Sample Issue 33,This is a generated description for issue number 33.,technical_issue,urgent,new,,generated;sample
+CUST034,user34@example.com,User 34,Sample Issue 34,This is a generated description for issue number 34.,technical_issue,urgent,waiting_customer,,generated;sample
+CUST035,user35@example.com,User 35,Sample Issue 35,This is a generated description for issue number 35.,feature_request,urgent,waiting_customer,Agent Smith,generated;sample
+CUST036,user36@example.com,User 36,Sample Issue 36,This is a generated description for issue number 36.,bug_report,high,closed,,generated;sample
+CUST037,user37@example.com,User 37,Sample Issue 37,This is a generated description for issue number 37.,bug_report,urgent,in_progress,Agent Jones,generated;sample
+CUST038,user38@example.com,User 38,Sample Issue 38,This is a generated description for issue number 38.,technical_issue,medium,waiting_customer,,generated;sample
+CUST039,user39@example.com,User 39,Sample Issue 39,This is a generated description for issue number 39.,account_access,low,closed,,generated;sample
+CUST040,user40@example.com,User 40,Sample Issue 40,This is a generated description for issue number 40.,feature_request,low,waiting_customer,,generated;sample
+CUST041,user41@example.com,User 41,Sample Issue 41,This is a generated description for issue number 41.,feature_request,high,new,Agent Smith,generated;sample
+CUST042,user42@example.com,User 42,Sample Issue 42,This is a generated description for issue number 42.,other,high,closed,Agent Jones,generated;sample
+CUST043,user43@example.com,User 43,Sample Issue 43,This is a generated description for issue number 43.,bug_report,medium,resolved,,generated;sample
+CUST044,user44@example.com,User 44,Sample Issue 44,This is a generated description for issue number 44.,account_access,low,in_progress,,generated;sample
+CUST045,user45@example.com,User 45,Sample Issue 45,This is a generated description for issue number 45.,other,high,resolved,,generated;sample
+CUST046,user46@example.com,User 46,Sample Issue 46,This is a generated description for issue number 46.,bug_report,urgent,waiting_customer,Agent Brown,generated;sample
+CUST047,user47@example.com,User 47,Sample Issue 47,This is a generated description for issue number 47.,other,low,in_progress,Agent Brown,generated;sample
+CUST048,user48@example.com,User 48,Sample Issue 48,This is a generated description for issue number 48.,feature_request,urgent,in_progress,Agent Jones,generated;sample
+CUST049,user49@example.com,User 49,Sample Issue 49,This is a generated description for issue number 49.,account_access,low,closed,,generated;sample
+CUST050,user50@example.com,User 50,Sample Issue 50,This is a generated description for issue number 50.,other,high,closed,Agent Jones,generated;sample

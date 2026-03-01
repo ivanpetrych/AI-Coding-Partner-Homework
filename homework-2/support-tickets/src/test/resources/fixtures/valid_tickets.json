@@ -1,0 +1,79 @@
+[
+  {
+    "customerId": "CUST201",
+    "customerEmail": "john@example.com",
+    "customerName": "John Doe",
+    "subject": "Cannot access my account",
+    "description": "I have been locked out of my account after too many failed login attempts. Please help.",
+    "category": "account_access",
+    "priority": "high",
+    "status": "new",
+    "tags": ["login", "locked"],
+    "metadata": {
+      "source": "web_form",
+      "browser": "Chrome 120",
+      "deviceType": "desktop"
+    }
+  },
+  {
+    "customerId": "CUST202",
+    "customerEmail": "jane@example.com",
+    "customerName": "Jane Smith",
+    "subject": "Refund not processed after 10 days",
+    "description": "I requested a refund on February 10th but it still has not appeared in my bank account.",
+    "category": "billing_question",
+    "priority": "medium",
+    "status": "in_progress",
+    "tags": ["refund", "billing"],
+    "metadata": {
+      "source": "email",
+      "deviceType": "mobile"
+    }
+  },
+  {
+    "customerId": "CUST203",
+    "customerEmail": "peter@example.com",
+    "customerName": "Peter Pan",
+    "subject": "Application crashes when uploading files",
+    "description": "Every time I try to upload a file larger than 5MB the application crashes without any error message.",
+    "category": "bug_report",
+    "priority": "urgent",
+    "status": "new",
+    "tags": ["upload", "crash"],
+    "metadata": {
+      "source": "api",
+      "browser": "Firefox 121",
+      "deviceType": "desktop"
+    }
+  },
+  {
+    "customerId": "CUST204",
+    "customerEmail": "mary@example.com",
+    "customerName": "Mary Jane",
+    "subject": "Feature request for bulk export",
+    "description": "It would be a useful enhancement to add bulk data export functionality to the admin dashboard.",
+    "category": "feature_request",
+    "priority": "low",
+    "status": "new",
+    "tags": ["export", "dashboard"],
+    "metadata": {
+      "source": "chat",
+      "deviceType": "tablet"
+    }
+  },
+  {
+    "customerId": "CUST205",
+    "customerEmail": "tom@example.com",
+    "customerName": "Tom Hardy",
+    "subject": "Production server is down for all users",
+    "description": "The production environment is completely down. All users are unable to access the system. This is critical.",
+    "category": "technical_issue",
+    "priority": "urgent",
+    "status": "new",
+    "tags": ["production", "outage"],
+    "metadata": {
+      "source": "phone",
+      "deviceType": "desktop"
+    }
+  }
+]

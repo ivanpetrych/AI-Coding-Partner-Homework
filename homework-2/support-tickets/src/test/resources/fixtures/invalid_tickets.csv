@@ -1,0 +1,6 @@
+customer_id,customer_email,customer_name,subject,description,category,priority,status
+CUST101,not-an-email,Invalid Email User,Email validation test,This row should fail because the email address format is invalid.,technical_issue,medium,new
+CUST102,valid@example.com,Valid User,,Description is present but subject is empty which should cause validation failure.,billing_question,low,new
+CUST103,another-bad-email,Another Bad User,Subject is fine,This row also has an invalid email address format so it should be rejected.,account_access,high,new
+CUST104,good@example.com,Good User,Valid subject here,This row is completely valid and should be imported successfully by the system.,feature_request,low,new
+CUST105,also-good@example.com,Also Good User,Another valid row,This is another completely valid row that should also be imported successfully.,other,medium,new
