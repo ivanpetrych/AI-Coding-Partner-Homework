@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Route ALL log output to System.err so that System.out (stdout) stays
+  exclusively available for MCP JSON-RPC messages.
+  Without this, Spring Boot's default ConsoleAppender writes to stdout and
+  corrupts the MCP protocol framing.
+-->
+<configuration>
+
+    <appender name="STDERR" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.err</target>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Show WARN+ for everything by default to keep stderr quiet -->
+    <root level="WARN">
+        <appender-ref ref="STDERR"/>
+    </root>
+
+    <!-- Show INFO for our own code so startup messages are visible -->
+    <logger name="com.homework.mcpserver" level="INFO"/>
+
+</configuration>
