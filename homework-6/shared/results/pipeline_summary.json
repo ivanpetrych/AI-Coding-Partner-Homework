@@ -1,0 +1,17 @@
+{
+  "pipeline_run_at": "2026-04-05T09:57:40.999855+00:00",
+  "total_transactions": 8,
+  "validated": 6,
+  "rejected": 2,
+  "settled": 5,
+  "flagged": 1,
+  "risk_breakdown": {
+    "LOW": 3,
+    "MEDIUM": 2,
+    "HIGH": 1
+  },
+  "rejection_reasons": {
+    "INVALID_CURRENCY": 1,
+    "NEGATIVE_AMOUNT": 1
+  }
+}

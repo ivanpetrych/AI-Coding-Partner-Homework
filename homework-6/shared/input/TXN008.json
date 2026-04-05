@@ -1,0 +1,21 @@
+{
+  "message_id": "37129d2c-e0a9-42bb-979d-066049b44b5d",
+  "timestamp": "2026-04-05T09:57:40.998670+00:00",
+  "source_agent": "integrator",
+  "target_agent": "transaction_validator",
+  "message_type": "transaction",
+  "data": {
+    "transaction_id": "TXN008",
+    "timestamp": "2026-03-16T10:15:00Z",
+    "source_account": "ACC-1008",
+    "destination_account": "ACC-9900",
+    "amount": "3200.00",
+    "currency": "USD",
+    "transaction_type": "transfer",
+    "description": "Salary advance",
+    "metadata": {
+      "channel": "mobile",
+      "country": "US"
+    }
+  }
+}

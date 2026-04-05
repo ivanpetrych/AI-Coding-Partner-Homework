@@ -1,0 +1,37 @@
+{
+  "transaction_id": "TXN002",
+  "final_status": "settled",
+  "processed_at": "2026-04-05T09:57:40.994591+00:00",
+  "validation": {
+    "status": "validated",
+    "rejection_reason": null
+  },
+  "fraud_assessment": {
+    "risk_score": 3,
+    "risk_level": "MEDIUM",
+    "risk_factors": [
+      "amount_above_10000 (+3)"
+    ]
+  },
+  "transaction_data": {
+    "transaction_id": "TXN002",
+    "timestamp": "2026-03-16T09:15:00Z",
+    "source_account": "***1002",
+    "destination_account": "***3001",
+    "amount": "25000.00",
+    "currency": "USD",
+    "transaction_type": "wire_transfer",
+    "description": "Equipment purchase",
+    "metadata": {
+      "channel": "branch",
+      "country": "US"
+    },
+    "status": "validated",
+    "validated_amount": "25000.00",
+    "fraud_risk_score": 3,
+    "fraud_risk_level": "MEDIUM",
+    "fraud_risk_factors": [
+      "amount_above_10000 (+3)"
+    ]
+  }
+}
