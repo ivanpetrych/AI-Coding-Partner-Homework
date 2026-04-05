@@ -1,0 +1,33 @@
+{
+  "transaction_id": "TXN008",
+  "final_status": "settled",
+  "processed_at": "2026-04-05T09:57:40.999566+00:00",
+  "validation": {
+    "status": "validated",
+    "rejection_reason": null
+  },
+  "fraud_assessment": {
+    "risk_score": 0,
+    "risk_level": "LOW",
+    "risk_factors": []
+  },
+  "transaction_data": {
+    "transaction_id": "TXN008",
+    "timestamp": "2026-03-16T10:15:00Z",
+    "source_account": "***1008",
+    "destination_account": "***9900",
+    "amount": "3200.00",
+    "currency": "USD",
+    "transaction_type": "transfer",
+    "description": "Salary advance",
+    "metadata": {
+      "channel": "mobile",
+      "country": "US"
+    },
+    "status": "validated",
+    "validated_amount": "3200.00",
+    "fraud_risk_score": 0,
+    "fraud_risk_level": "LOW",
+    "fraud_risk_factors": []
+  }
+}

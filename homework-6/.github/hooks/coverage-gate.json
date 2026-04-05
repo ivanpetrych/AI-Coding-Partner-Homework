@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "type": "command",
+        "command": "bash scripts/check-coverage.sh",
+        "cwd": "homework-6",
+        "timeout": 60,
+        "event": "PostToolUse",
+        "description": "Coverage gate — runs tests and blocks if coverage < 80%"
+      }
+    ]
+  }
+}

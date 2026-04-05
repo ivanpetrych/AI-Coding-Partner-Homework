@@ -1,0 +1,39 @@
+{
+  "transaction_id": "TXN004",
+  "final_status": "settled",
+  "processed_at": "2026-04-05T09:57:40.995846+00:00",
+  "validation": {
+    "status": "validated",
+    "rejection_reason": null
+  },
+  "fraud_assessment": {
+    "risk_score": 3,
+    "risk_level": "MEDIUM",
+    "risk_factors": [
+      "unusual_hour_02:00 (+2)",
+      "cross_border_DE (+1)"
+    ]
+  },
+  "transaction_data": {
+    "transaction_id": "TXN004",
+    "timestamp": "2026-03-16T02:47:00Z",
+    "source_account": "***1004",
+    "destination_account": "***5500",
+    "amount": "500.00",
+    "currency": "EUR",
+    "transaction_type": "transfer",
+    "description": "Invoice #4471",
+    "metadata": {
+      "channel": "api",
+      "country": "DE"
+    },
+    "status": "validated",
+    "validated_amount": "500.00",
+    "fraud_risk_score": 3,
+    "fraud_risk_level": "MEDIUM",
+    "fraud_risk_factors": [
+      "unusual_hour_02:00 (+2)",
+      "cross_border_DE (+1)"
+    ]
+  }
+}

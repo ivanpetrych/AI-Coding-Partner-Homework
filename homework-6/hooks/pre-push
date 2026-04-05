@@ -1,0 +1,16 @@
+#!/bin/bash
+# Git pre-push hook — coverage gate
+# Blocks push if homework-6 test coverage is below 80%
+#
+# Install: cp homework-6/hooks/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push
+
+HOMEWORK_DIR="$(git rev-parse --show-toplevel)/homework-6"
+
+if [ -d "$HOMEWORK_DIR/tests" ]; then
+    echo "🔍 Pre-push: Running coverage gate for homework-6..."
+    bash "$HOMEWORK_DIR/scripts/check-coverage.sh"
+    exit $?
+else
+    echo "⚠️  No tests directory found in homework-6, skipping coverage gate."
+    exit 0
+fi
